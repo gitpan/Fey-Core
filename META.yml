@@ -1,6 +1,6 @@
 ---
 name: Fey-Core
-version: 0.01
+version: 0.02
 author:
   - 'Dave Rolsky, <autarch@urth.org>'
 abstract: Better SQL Generation Through Perl
@@ -21,6 +21,7 @@ requires:
   Task::Weaken: 0.99
 build_requires:
   DBI: 0
+  Fey::Test: 0.01
   File::Temp: 0
   Test::MockObject: 0
   Test::More: 0
@@ -29,7 +30,7 @@ recommends:
 provides:
   Fey:
     file: lib/Fey.pm
-    version: 0.01
+    version: 0.02
   Fey::Column:
     file: lib/Fey/Column.pm
   Fey::Column::Alias:
@@ -104,10 +105,6 @@ provides:
     file: lib/Fey/Table.pm
   Fey::Table::Alias:
     file: lib/Fey/Table/Alias.pm
-  Fey::Test:
-    file: lib/Fey/Test.pm
-  Fey::Test::MockSTH:
-    file: lib/Fey/Test.pm
   Fey::Validate:
     file: lib/Fey/Validate.pm
 generated_by: Module::Build version 0.2808

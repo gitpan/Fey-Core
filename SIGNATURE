@@ -15,17 +15,17 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 4ae083bc12adad577e84199189c70f73a85f3503 .shipit
-SHA1 e845206754130c95c193033817487f40ef101435 Build.PL
-SHA1 74564d29e921b1e4c98b59d4468c213833ceee1e Changes
+SHA1 a67d0ed8afea07cea30ebace382ec79e5f0824e4 Build.PL
+SHA1 25c90af12cba3e89c250ad90768880723292281a Changes
 SHA1 f235ba4160673bcb7c9d58c2f09dbc7fc0efadea LICENSE
-SHA1 793c58fed0179a6ac5659757a167925ccdbc28c1 MANIFEST
-SHA1 b5b18d19a918f7251dab7f4dfd6a775574d0c1a0 META.yml
+SHA1 9d5a6400830cec77eaf50caa7e678600935b7833 MANIFEST
+SHA1 ff6d9aadf80c33cf02ed5cbbe23dfcb50639aa68 META.yml
 SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
 SHA1 9a27989de0bbed417bc27b679ab8304255596fa4 README
 SHA1 7891c3ef413dce8d7081ae2f06a5dc847fd96f68 dev/run-cover
-SHA1 4ebab773c2fc30d58e2902eed64445f7b46068ef lib/Fey.pm
+SHA1 94a060e5b2a7b16624d026b464a307acb1c15108 lib/Fey.pm
 SHA1 19ae55138a956b1f547f183519d3585807fe1026 lib/Fey/Column.pm
-SHA1 31a952e28c24d6c10a7400749bfb32242dc65e0e lib/Fey/Column/Alias.pm
+SHA1 489962dd01c6dc23bd68e315799e83361f8eb9b7 lib/Fey/Column/Alias.pm
 SHA1 71972ba39945efe036da3ccd4e6511bcb1f6dfdf lib/Fey/Exceptions.pm
 SHA1 10afcc5c676b43ded4d82cfc3125a7324d3c74d3 lib/Fey/FK.pm
 SHA1 922d5b55459f2ff981076c36d5551ac0bfde9d74 lib/Fey/FakeDBI.pm
@@ -46,10 +46,10 @@ SHA1 8e921e832659a7ee53f38a46d1b81aa118cff184 lib/Fey/Role/SQL/HasLimitClause.pm
 SHA1 a35e9bf105e0a191c09cec173ac588af528bd1e8 lib/Fey/Role/SQL/HasOrderByClause.pm
 SHA1 e614d8f4320c4934ca08a20d73ac8177eda49564 lib/Fey/Role/SQL/HasWhereClause.pm
 SHA1 56b3c540758a9fd38ceed85aba899708baf2a630 lib/Fey/Role/Selectable.pm
-SHA1 e70dda74c1cad1d62b46ade3137f8bd2e6445875 lib/Fey/SQL.pm
+SHA1 16e2471724903a382b859ccc9fca99407035f52c lib/Fey/SQL.pm
 SHA1 ffb159badd1dc783dda43a471aa45a80e559228b lib/Fey/SQL/Delete.pm
 SHA1 821bb69f0de1f53ebba4ecae4380afdae68edad8 lib/Fey/SQL/Fragment/Join.pm
-SHA1 4e170b25a7a7d21a0dd0a47ddbb5046d707bf7c7 lib/Fey/SQL/Fragment/SubSelect.pm
+SHA1 4130dd3b17d07450c5841af68a52182b2b14b76a lib/Fey/SQL/Fragment/SubSelect.pm
 SHA1 ce2dea55942d80b74a2f044722292b4c2459a4fe lib/Fey/SQL/Fragment/Where/Boolean.pm
 SHA1 d7e744db8898b4b35f14d268a3a1cbd4d1109ab9 lib/Fey/SQL/Fragment/Where/Comparison.pm
 SHA1 e64052c6ad304b5b1e0635da1dda79f6622acc92 lib/Fey/SQL/Fragment/Where/SubgroupEnd.pm
@@ -61,7 +61,6 @@ SHA1 f6575042252cd0a8104ca9c3db4acfa0a1861529 lib/Fey/SQL/Where.pm
 SHA1 e3814eecb4635c7ca228d19ad783acd88193bd9d lib/Fey/Schema.pm
 SHA1 103af39601726712203eb9b0a9b5640f8ef49a89 lib/Fey/Table.pm
 SHA1 b449afe05c4d8e3dc8a1c2af2cdac854269f3b05 lib/Fey/Table/Alias.pm
-SHA1 ff2ec9d73b170c25b759ccc84b6a5e9945f85417 lib/Fey/Test.pm
 SHA1 2d426b67756db4a5f0ff4a46ae02ff1c899bdf8e lib/Fey/Validate.pm
 SHA1 355792d5ef372f80488ed763f92a13ffda0b6130 t/Column-guess-type.t
 SHA1 a3b9fa38a7fad1708bde697088cd1576572b861c t/Column.t
@@ -94,7 +93,7 @@ SHA1 fa09e1f76e152d19f3f46fd2b13b8b6810a04666 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.6 (GNU/Linux)
 
-iD8DBQFHpOyp3Or3ZzQuifMRAhWPAKCXj3nk5zrC1lbJVhxeFWJc/JGCWQCfXc4z
-9iUlnrJ7OQ2h4B+oG7rkoUE=
-=gMRj
+iD8DBQFHqMjg3Or3ZzQuifMRAv4DAJ0b5ngxcL+tNJ/o/cFcNG3ohvYknQCeIy1h
+7YkMDhZlCkNu81M6J6rJb5M=
+=lb8u
 -----END PGP SIGNATURE-----
